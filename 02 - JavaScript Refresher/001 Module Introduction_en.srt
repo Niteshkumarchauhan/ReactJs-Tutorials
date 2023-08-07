@@ -1,0 +1,152 @@
+1
+00:00:02,130 --> 00:00:04,440
+This course will teach you React
+
+2
+00:00:04,440 --> 00:00:07,620
+from the ground up and in great detail.
+
+3
+00:00:07,620 --> 00:00:09,960
+But this course section here
+
+4
+00:00:09,960 --> 00:00:12,900
+will actually not be about React,
+
+5
+00:00:12,900 --> 00:00:16,079
+but instead about just JavaScript.
+
+6
+00:00:16,079 --> 00:00:19,950
+It will allow you to refresh your JavaScript knowledge
+
+7
+00:00:19,950 --> 00:00:24,420
+and therefore, this course section here is optional.
+
+8
+00:00:24,420 --> 00:00:26,400
+You can therefore skip it,
+
+9
+00:00:26,400 --> 00:00:29,550
+and you can of course also always come back to it
+
+10
+00:00:29,550 --> 00:00:31,410
+if later in the course
+
+11
+00:00:31,410 --> 00:00:35,610
+you see that you need some extra JavaScript help
+
+12
+00:00:35,610 --> 00:00:37,890
+because this course section here
+
+13
+00:00:37,890 --> 00:00:42,060
+is recommended if you haven't used JavaScript in a while
+
+14
+00:00:42,060 --> 00:00:45,900
+or if you don't have a lot of JavaScript experience.
+
+15
+00:00:45,900 --> 00:00:47,250
+But I'll also say right away,
+
+16
+00:00:47,250 --> 00:00:52,250
+that this section does not replace a JavaScript course.
+
+17
+00:00:52,410 --> 00:00:54,630
+This section is not for you
+
+18
+00:00:54,630 --> 00:00:58,590
+if you have absolutely no JavaScript experience
+
+19
+00:00:58,590 --> 00:01:00,090
+because if that's the case,
+
+20
+00:01:00,090 --> 00:01:01,800
+you should definitely at least
+
+21
+00:01:01,800 --> 00:01:03,900
+explore some JavaScript basics
+
+22
+00:01:03,900 --> 00:01:06,630
+before continuing with this course.
+
+23
+00:01:06,630 --> 00:01:08,100
+But this section here,
+
+24
+00:01:08,100 --> 00:01:11,430
+will revisit crucial JavaScript concepts
+
+25
+00:01:11,430 --> 00:01:14,010
+and it will especially take a closer look at
+
+26
+00:01:14,010 --> 00:01:16,260
+the core JavaScript concepts you need
+
+27
+00:01:16,260 --> 00:01:18,030
+for building React apps,
+
+28
+00:01:18,030 --> 00:01:20,940
+so for writing React code, you could say
+
+29
+00:01:20,940 --> 00:01:23,100
+because in this section here
+
+30
+00:01:23,100 --> 00:01:25,590
+we will revisit the core JavaScript
+
+31
+00:01:25,590 --> 00:01:28,230
+syntax and rules you should follow
+
+32
+00:01:28,230 --> 00:01:30,450
+when writing JavaScript code.
+
+33
+00:01:30,450 --> 00:01:33,750
+We'll explore the essential modern JavaScript
+
+34
+00:01:33,750 --> 00:01:36,510
+features you should know in general,
+
+35
+00:01:36,510 --> 00:01:40,050
+and will, of course also, especially focus on the features
+
+36
+00:01:40,050 --> 00:01:42,540
+you need to write React code.
+
+37
+00:01:42,540 --> 00:01:45,690
+So the features you will use throughout this course,
+
+38
+00:01:45,690 --> 00:01:47,883
+that's what you'll get out of this section.
+

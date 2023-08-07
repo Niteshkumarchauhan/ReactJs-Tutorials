@@ -1,0 +1,64 @@
+1
+00:00:02,550 --> 00:00:04,800
+In this module, it's time for
+
+2
+00:00:04,800 --> 00:00:08,280
+Fragments, Portals, and Refs.
+
+3
+00:00:08,280 --> 00:00:09,370
+Okay, what's that?
+
+4
+00:00:09,370 --> 00:00:11,180
+That will be more tools
+
+5
+00:00:11,180 --> 00:00:15,950
+in our react toolbox that help us solve more problems.
+
+6
+00:00:15,950 --> 00:00:17,050
+And in this module
+
+7
+00:00:17,050 --> 00:00:19,410
+we'll simply go through these different features
+
+8
+00:00:19,410 --> 00:00:21,670
+and you will learn which problems they solve
+
+9
+00:00:21,670 --> 00:00:25,500
+and why we need them and how you can use them, of course.
+
+10
+00:00:25,500 --> 00:00:26,700
+We'll have a look at
+
+11
+00:00:26,700 --> 00:00:30,030
+limitations we're actually facing with JSX code
+
+12
+00:00:30,030 --> 00:00:34,740
+and how fragments can help us overcome those limitations.
+
+13
+00:00:34,740 --> 00:00:37,830
+We'll learn how we can derive a cleaner DOM,
+
+14
+00:00:37,830 --> 00:00:40,210
+a better code structure with the help
+
+15
+00:00:40,210 --> 00:00:43,460
+of portals and we'll work with Refs
+
+16
+00:00:43,460 --> 00:00:47,033
+and learn what Refs actually are and why we need them.
+

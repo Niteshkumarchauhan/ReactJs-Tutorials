@@ -1,0 +1,83 @@
+1
+00:00:02,100 --> 00:00:05,466
+- [Instructor] By now we
+know how to build components
+
+2
+00:00:05,466 --> 00:00:08,132
+and work with multiple components,
+
+3
+00:00:08,132 --> 00:00:10,266
+and we know how to work with state
+
+4
+00:00:10,266 --> 00:00:12,266
+and how to handle user events.
+
+5
+00:00:12,266 --> 00:00:12,533
+and how to handle user events.
+
+6
+00:00:12,533 --> 00:00:14,400
+In this course section,
+
+7
+00:00:14,400 --> 00:00:17,600
+we're now going to dive
+into rendering lists
+
+8
+00:00:17,600 --> 00:00:20,533
+and rendering conditional content.
+
+9
+00:00:20,533 --> 00:00:20,566
+and rendering conditional content.
+
+10
+00:00:20,566 --> 00:00:25,366
+So we'll have a look at how
+we can output arrays of data
+
+11
+00:00:25,366 --> 00:00:28,900
+on our page and how we
+can show different content
+
+12
+00:00:28,900 --> 00:00:30,866
+based on different conditions,
+
+13
+00:00:30,866 --> 00:00:31,200
+based on different conditions,
+
+14
+00:00:31,200 --> 00:00:32,633
+and that's exactly what we're going
+
+15
+00:00:32,633 --> 00:00:34,700
+to dive into in this module.
+
+16
+00:00:34,700 --> 00:00:37,166
+We're going to continue
+working on the application
+
+17
+00:00:37,166 --> 00:00:40,033
+we already started over
+the last course sections,
+
+18
+00:00:40,033 --> 00:00:43,000
+but in this module we're
+now going to finish it
+
+19
+00:00:43,000 --> 00:00:44,733
+by adding these features.
+

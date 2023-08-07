@@ -1,0 +1,132 @@
+1
+00:00:02,120 --> 00:00:04,040
+At this point in the course
+
+2
+00:00:04,040 --> 00:00:06,420
+we already learned a lot about React,
+
+3
+00:00:06,420 --> 00:00:10,630
+though I will say there also is more left to be learned.
+
+4
+00:00:10,630 --> 00:00:13,410
+But everything we learned up to this point
+
+5
+00:00:13,410 --> 00:00:16,210
+was about React doing things
+
+6
+00:00:16,210 --> 00:00:18,627
+inside of our app, in the browser.
+
+7
+00:00:18,627 --> 00:00:20,980
+And of course, that is why we do use React.
+
+8
+00:00:20,980 --> 00:00:22,730
+That is its main job
+
+9
+00:00:22,730 --> 00:00:27,300
+but we also only worked with local data up to this point.
+
+10
+00:00:27,300 --> 00:00:29,770
+So we only played around with dummy data
+
+11
+00:00:29,770 --> 00:00:34,270
+which was always just managed and stored in the browser.
+
+12
+00:00:34,270 --> 00:00:37,640
+In this course section, we are going to dive
+
+13
+00:00:37,640 --> 00:00:41,690
+into how you may connect your React Application
+
+14
+00:00:41,690 --> 00:00:44,160
+to a backend, to a database.
+
+15
+00:00:44,160 --> 00:00:46,850
+Because of course, many applications
+
+16
+00:00:46,850 --> 00:00:50,950
+probably all applications need to fetch data
+
+17
+00:00:50,950 --> 00:00:55,000
+from a database or store some data in a database eventually.
+
+18
+00:00:55,000 --> 00:00:56,480
+No matter if we're talking about
+
+19
+00:00:56,480 --> 00:00:58,430
+users that need to be created
+
+20
+00:00:58,430 --> 00:01:01,596
+and stored and locked in, or if we're talking about products
+
+21
+00:01:01,596 --> 00:01:04,840
+that need to be loaded or anything like that.
+
+22
+00:01:04,840 --> 00:01:06,530
+And therefore this section
+
+23
+00:01:06,530 --> 00:01:09,300
+is about establishing such a connection.
+
+24
+00:01:09,300 --> 00:01:13,170
+And it is about Sending Http Requests
+
+25
+00:01:13,170 --> 00:01:16,700
+from inside our React App to a backend.
+
+26
+00:01:16,700 --> 00:01:19,390
+And specifically we are going to learn
+
+27
+00:01:19,390 --> 00:01:24,080
+how exactly React Apps do interact with Databases?
+
+28
+00:01:24,080 --> 00:01:27,050
+Because whilst it's simple, as you will learn
+
+29
+00:01:27,050 --> 00:01:31,510
+it will not necessarily work as you expect it to work.
+
+30
+00:01:31,510 --> 00:01:34,530
+You will learn how you can send Http Requests
+
+31
+00:01:34,530 --> 00:01:37,610
+and work with responses, which you get back.
+
+32
+00:01:37,610 --> 00:01:41,010
+And we're going to have a look at how we can handle Errors
+
+33
+00:01:41,010 --> 00:01:44,083
+and Loading States in our application.
+

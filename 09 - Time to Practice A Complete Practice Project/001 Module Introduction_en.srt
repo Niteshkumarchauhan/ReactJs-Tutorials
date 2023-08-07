@@ -1,0 +1,196 @@
+1
+00:00:02,100 --> 00:00:04,080
+At this point in the course,
+
+2
+00:00:04,080 --> 00:00:08,310
+you already learned a lot about some crucial core
+
+3
+00:00:08,310 --> 00:00:10,830
+React concepts, and of course,
+
+4
+00:00:10,830 --> 00:00:12,720
+you're going to learn even more
+
+5
+00:00:12,720 --> 00:00:14,730
+throughout the rest of this course.
+
+6
+00:00:14,730 --> 00:00:16,890
+But before you go there,
+
+7
+00:00:16,890 --> 00:00:21,890
+before you dive deeper into React, I strongly recommend
+
+8
+00:00:21,990 --> 00:00:24,510
+that you first practice what you learned
+
+9
+00:00:24,510 --> 00:00:28,860
+and that's exactly what this core section will be there for.
+
+10
+00:00:28,860 --> 00:00:30,330
+In this core section,
+
+11
+00:00:30,330 --> 00:00:33,660
+we're going to build two demo projects,
+
+12
+00:00:33,660 --> 00:00:38,070
+two basic yet non-trivial demo projects,
+
+13
+00:00:38,070 --> 00:00:41,040
+which allow you to apply your knowledge
+
+14
+00:00:41,040 --> 00:00:43,050
+and to practice what you learned.
+
+15
+00:00:43,050 --> 00:00:46,080
+Because in both projects you'll need to work
+
+16
+00:00:46,080 --> 00:00:49,920
+with components, state, some styling
+
+17
+00:00:49,920 --> 00:00:53,610
+and all these crucial core concepts we explored
+
+18
+00:00:53,610 --> 00:00:55,980
+throughout the previous sections.
+
+19
+00:00:55,980 --> 00:00:58,230
+Therefore, in this section here,
+
+20
+00:00:58,230 --> 00:01:01,890
+you'll practice how to split an existing component
+
+21
+00:01:01,890 --> 00:01:05,250
+and an existing application into multiple components,
+
+22
+00:01:05,250 --> 00:01:07,290
+and you'll also practice how to build
+
+23
+00:01:07,290 --> 00:01:09,870
+an application from scratch.
+
+24
+00:01:09,870 --> 00:01:12,960
+You will practice how to work with state,
+
+25
+00:01:12,960 --> 00:01:15,030
+how to manage and use state,
+
+26
+00:01:15,030 --> 00:01:20,030
+and you'll practice outputting list and conditional content.
+
+27
+00:01:20,070 --> 00:01:22,350
+Now, for both practice projects
+
+28
+00:01:22,350 --> 00:01:25,440
+which I prepared for you for this section here,
+
+29
+00:01:25,440 --> 00:01:28,320
+I will give you an introduction to those projects.
+
+30
+00:01:28,320 --> 00:01:30,690
+I'll provide you with some starting code
+
+31
+00:01:30,690 --> 00:01:32,490
+and I'll give you some tasks
+
+32
+00:01:32,490 --> 00:01:35,880
+or show you how the finished project should look like,
+
+33
+00:01:35,880 --> 00:01:38,670
+but I then absolutely would recommend
+
+34
+00:01:38,670 --> 00:01:41,610
+that you first try solving these tasks
+
+35
+00:01:41,610 --> 00:01:44,190
+and building those projects on your own
+
+36
+00:01:44,190 --> 00:01:47,550
+before you then take a look at my example solution,
+
+37
+00:01:47,550 --> 00:01:52,320
+which I of course will also provide as part of this section.
+
+38
+00:01:52,320 --> 00:01:55,650
+Because by trying these things on your own first,
+
+39
+00:01:55,650 --> 00:01:58,200
+you'll of course learn more about React
+
+40
+00:01:58,200 --> 00:02:02,220
+and you'll be able to confirm that you really understood
+
+41
+00:02:02,220 --> 00:02:05,430
+all these core concepts up to this point.
+
+42
+00:02:05,430 --> 00:02:09,630
+That being said, after every demo project introduction,
+
+43
+00:02:09,630 --> 00:02:13,440
+I will provide you with detailed solution steps
+
+44
+00:02:13,440 --> 00:02:16,500
+allowing you to compare your solution to mine,
+
+45
+00:02:16,500 --> 00:02:19,200
+and of course, whilst building that solution together
+
+46
+00:02:19,200 --> 00:02:23,550
+with you, I'll also explain why I chose a certain approach
+
+47
+00:02:23,550 --> 00:02:27,840
+and why I solved the tasks as I did solve them.
+
+48
+00:02:27,840 --> 00:02:30,570
+So definitely take a look at my solution as well,
+
+49
+00:02:30,570 --> 00:02:34,293
+but also definitely try those projects on your own first.
+

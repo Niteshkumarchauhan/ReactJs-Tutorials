@@ -1,0 +1,328 @@
+1
+00:00:02,367 --> 00:00:04,819
+Lecturer: So in the first course section,
+
+2
+00:00:04,819 --> 00:00:08,320
+we learned what React is and what it's about.
+
+3
+00:00:08,320 --> 00:00:08,354
+we learned what React is and what it's about.
+
+4
+00:00:08,354 --> 00:00:11,822
+We had a first general overview of React
+
+5
+00:00:11,822 --> 00:00:14,057
+and why we might wanna use it.
+
+6
+00:00:14,057 --> 00:00:15,807
+In this course section,
+
+7
+00:00:15,807 --> 00:00:19,209
+we are now going to dive into all the basics
+
+8
+00:00:19,209 --> 00:00:23,078
+you need to know to build any kind of React app.
+
+9
+00:00:23,078 --> 00:00:23,311
+you need to know to build any kind of React app.
+
+10
+00:00:23,311 --> 00:00:26,063
+We're going to explore all the base features
+
+11
+00:00:26,063 --> 00:00:28,681
+and most importantly, we are going to learn
+
+12
+00:00:28,681 --> 00:00:32,316
+how to build component-driven user interfaces.
+
+13
+00:00:32,316 --> 00:00:32,432
+how to build component-driven user interfaces.
+
+14
+00:00:32,432 --> 00:00:34,917
+So how to build user interfaces
+
+15
+00:00:34,917 --> 00:00:40,086
+by embracing a concept called components which turns out
+
+16
+00:00:40,086 --> 00:00:42,921
+is actually embraced by React.
+
+17
+00:00:42,921 --> 00:00:42,971
+is actually embraced by React.
+
+18
+00:00:42,971 --> 00:00:45,222
+And of course, I will explain what exactly
+
+19
+00:00:45,222 --> 00:00:48,691
+these components are and why React embrace system
+
+20
+00:00:48,691 --> 00:00:51,108
+in this course section as well.
+
+21
+00:00:51,108 --> 00:00:54,160
+Now specifically for that, as I said,
+
+22
+00:00:54,160 --> 00:00:56,544
+we're going to learn about all the base features
+
+23
+00:00:56,544 --> 00:01:00,013
+that make up React, all the core syntax,
+
+24
+00:01:00,013 --> 00:01:02,297
+we're specifically also going to learn
+
+25
+00:01:02,297 --> 00:01:08,084
+about a feature called JSX or a special syntax called JSX,
+
+26
+00:01:08,084 --> 00:01:11,018
+what that is and why we use it.
+
+27
+00:01:11,018 --> 00:01:13,753
+Then as I also mentioned, we're also going to learn
+
+28
+00:01:13,753 --> 00:01:15,554
+what these components are, but most importantly also,
+
+29
+00:01:15,554 --> 00:01:17,488
+what these components are, but most importantly also,
+
+30
+00:01:17,488 --> 00:01:20,690
+how we can build our own components with React
+
+31
+00:01:20,690 --> 00:01:23,675
+and how we can use them and how we can work with them.
+
+32
+00:01:23,675 --> 00:01:23,958
+and how we can use them and how we can work with them.
+
+33
+00:01:23,958 --> 00:01:25,742
+And we're going to learn how we can work
+
+34
+00:01:25,742 --> 00:01:30,945
+with data in React apps, because most web applications
+
+35
+00:01:30,945 --> 00:01:33,930
+are not just about showing some static text,
+
+36
+00:01:33,930 --> 00:01:38,132
+but about outputting some data or updating some data
+
+37
+00:01:38,132 --> 00:01:39,999
+when things change on the screen.
+
+38
+00:01:39,999 --> 00:01:42,134
+And that's therefore, all is what we're going to learn
+
+39
+00:01:42,134 --> 00:01:43,651
+in this course section
+
+40
+00:01:43,651 --> 00:01:47,670
+but also in the next course sections in general.
+
+41
+00:01:47,670 --> 00:01:51,539
+Now, of course, I don't want to teach these things
+
+42
+00:01:51,539 --> 00:01:55,024
+by just using some boring theory or slides.
+
+43
+00:01:55,024 --> 00:01:55,124
+by just using some boring theory or slides.
+
+44
+00:01:55,124 --> 00:01:57,508
+We will have all the required theory
+
+45
+00:01:57,508 --> 00:01:59,426
+that hopefully it's not boring,
+
+46
+00:01:59,426 --> 00:02:03,911
+but we will also build this first example project year,
+
+47
+00:02:03,911 --> 00:02:06,880
+this example web application.
+
+48
+00:02:06,880 --> 00:02:09,531
+This here it's entirely built with a React
+
+49
+00:02:09,531 --> 00:02:11,749
+and we are going to build it together
+
+50
+00:02:11,749 --> 00:02:15,384
+for this and the next course sections.
+
+51
+00:02:15,384 --> 00:02:19,219
+And I'm saying, and the next course sections,
+
+52
+00:02:19,219 --> 00:02:23,188
+because it turns out that React is a bunch of core features
+
+53
+00:02:23,188 --> 00:02:23,204
+because it turns out that React is a bunch of core features
+
+54
+00:02:23,204 --> 00:02:26,356
+and we will need a lot of these features
+
+55
+00:02:26,356 --> 00:02:27,773
+in this application.
+
+56
+00:02:27,773 --> 00:02:27,873
+in this application.
+
+57
+00:02:27,873 --> 00:02:31,425
+It might look fairly trivial, but it actually isn't.
+
+58
+00:02:31,425 --> 00:02:34,910
+Once we finish this first application
+
+59
+00:02:34,910 --> 00:02:37,395
+which also is not the only one in the course,
+
+60
+00:02:37,395 --> 00:02:39,379
+you will have learned about basically
+
+61
+00:02:39,379 --> 00:02:41,747
+all important key concepts
+
+62
+00:02:41,747 --> 00:02:43,848
+which you need over and over again
+
+63
+00:02:43,848 --> 00:02:46,716
+in any React app you're going to build.
+
+64
+00:02:46,716 --> 00:02:47,000
+in any React app you're going to build.
+
+65
+00:02:47,000 --> 00:02:48,967
+Now what is that though?
+
+66
+00:02:48,967 --> 00:02:50,501
+It's an expense tracker.
+
+67
+00:02:50,501 --> 00:02:54,787
+We can see our expenses also by year here,
+
+68
+00:02:54,787 --> 00:02:57,755
+we can filter, and you see as I filter,
+
+69
+00:02:57,755 --> 00:03:01,307
+does user interface automatically updates.
+
+70
+00:03:01,307 --> 00:03:03,641
+it updates and with a nice animation,
+
+71
+00:03:03,641 --> 00:03:07,560
+and it shows us the expenses for a selected year.
+
+72
+00:03:07,560 --> 00:03:10,195
+And of course we can also add a new expense
+
+73
+00:03:10,195 --> 00:03:17,231
+for example, maybe I bought some books for $39 in 2020,
+
+74
+00:03:17,231 --> 00:03:22,417
+let's say on December 16th, and if I add this expense here,
+
+75
+00:03:22,417 --> 00:03:25,569
+you see it shows up here the chart updates
+
+76
+00:03:25,569 --> 00:03:29,021
+and the data is also there if I switch to another year
+
+77
+00:03:29,021 --> 00:03:32,339
+and then back to 2020.
+
+78
+00:03:32,339 --> 00:03:33,906
+So this expense tracker
+
+79
+00:03:33,906 --> 00:03:35,957
+is what we're going to get started with.
+
+80
+00:03:35,957 --> 00:03:38,642
+And as we're going to build it step-by-step,
+
+81
+00:03:38,642 --> 00:03:41,527
+we are going to learn about all the key concepts
+
+82
+00:03:41,527 --> 00:03:44,278
+you gotta know when working with React.
+

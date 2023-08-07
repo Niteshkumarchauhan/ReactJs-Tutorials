@@ -1,0 +1,452 @@
+1
+00:00:02,040 --> 00:00:04,440
+So let's now solve these tasks.
+
+2
+00:00:04,440 --> 00:00:06,360
+And for that, of course, we're going to start
+
+3
+00:00:06,360 --> 00:00:10,803
+with the first task where we output the key concepts data.
+
+4
+00:00:12,150 --> 00:00:14,400
+Now, the data is already here
+
+5
+00:00:14,400 --> 00:00:17,670
+in app js in this concepts array.
+
+6
+00:00:17,670 --> 00:00:22,080
+And now, the goal is to output that data down there.
+
+7
+00:00:22,080 --> 00:00:24,840
+And if you take a look at this unordered list here
+
+8
+00:00:24,840 --> 00:00:27,450
+where the concept data should be output,
+
+9
+00:00:27,450 --> 00:00:30,960
+you can see that I already got one list item there,
+
+10
+00:00:30,960 --> 00:00:34,800
+but at the moment, it only contains dummy content here,
+
+11
+00:00:34,800 --> 00:00:37,413
+only dummy data.
+
+12
+00:00:37,413 --> 00:00:39,570
+That now needs to be replaced
+
+13
+00:00:39,570 --> 00:00:42,900
+with the actual data from these objects.
+
+14
+00:00:42,900 --> 00:00:43,860
+And as I mentioned,
+
+15
+00:00:43,860 --> 00:00:47,016
+the goal is now not to copy and paste that data,
+
+16
+00:00:47,016 --> 00:00:51,120
+but instead to dynamically access the data
+
+17
+00:00:51,120 --> 00:00:53,070
+in that concepts array.
+
+18
+00:00:53,070 --> 00:00:55,350
+And in React, you can do that
+
+19
+00:00:55,350 --> 00:00:57,840
+by using single curly braces,
+
+20
+00:00:57,840 --> 00:01:02,643
+as you learned opening and closing single curly braces.
+
+21
+00:01:03,510 --> 00:01:05,610
+Between those curly braces,
+
+22
+00:01:05,610 --> 00:01:10,590
+you can put any JavaScript expression that yields a value.
+
+23
+00:01:10,590 --> 00:01:13,230
+You could, for example, put one plus one in here.
+
+24
+00:01:13,230 --> 00:01:15,060
+But, of course, that's not the goal here.
+
+25
+00:01:15,060 --> 00:01:18,180
+Instead, here for the image, I want to refer
+
+26
+00:01:18,180 --> 00:01:22,980
+to this image or precisely to the value stored
+
+27
+00:01:22,980 --> 00:01:26,733
+under the image key in this first object in this array.
+
+28
+00:01:27,750 --> 00:01:30,780
+So, this value stored under this image key
+
+29
+00:01:30,780 --> 00:01:33,243
+in the first object of this array.
+
+30
+00:01:34,710 --> 00:01:38,850
+To output that image here, we can go to this source here.
+
+31
+00:01:38,850 --> 00:01:41,340
+So, between those curly braces,
+
+32
+00:01:41,340 --> 00:01:44,103
+reference this Concepts array by its name.
+
+33
+00:01:45,060 --> 00:01:46,470
+And then, since it's an array,
+
+34
+00:01:46,470 --> 00:01:48,960
+and I want to access the first element in there,
+
+35
+00:01:48,960 --> 00:01:51,930
+I can use square brackets zero
+
+36
+00:01:51,930 --> 00:01:55,170
+which does access the first element in that array.
+
+37
+00:01:55,170 --> 00:01:58,233
+And that first element will be this object here.
+
+38
+00:01:59,070 --> 00:02:01,590
+And then, this object I now want to get access
+
+39
+00:02:01,590 --> 00:02:05,010
+to that value that's stored under the key image.
+
+40
+00:02:05,010 --> 00:02:07,710
+So therefore, we can use the dot notation here
+
+41
+00:02:07,710 --> 00:02:10,530
+and access image like this.
+
+42
+00:02:10,530 --> 00:02:12,753
+And this will output the image here.
+
+43
+00:02:14,070 --> 00:02:17,160
+Now, I also want to set the alt text dynamically,
+
+44
+00:02:17,160 --> 00:02:20,040
+and I wanna set this to the title of this concept.
+
+45
+00:02:20,040 --> 00:02:23,430
+And therefore, here we again need curly braces
+
+46
+00:02:23,430 --> 00:02:26,580
+to dynamically output some content here.
+
+47
+00:02:26,580 --> 00:02:29,280
+And then, we use concepts again,
+
+48
+00:02:29,280 --> 00:02:30,420
+square bracket zero,
+
+49
+00:02:30,420 --> 00:02:34,260
+because we're still working on the same Concepts object.
+
+50
+00:02:34,260 --> 00:02:37,983
+And then, dot title gives us access to the title.
+
+51
+00:02:39,090 --> 00:02:41,199
+And that's actually also exactly the code
+
+52
+00:02:41,199 --> 00:02:45,390
+I need down here to output the title as text.
+
+53
+00:02:45,390 --> 00:02:47,163
+So, between those H2 tags.
+
+54
+00:02:48,210 --> 00:02:49,980
+And then, here, for the paragraph
+
+55
+00:02:49,980 --> 00:02:52,500
+where I want to output the description
+
+56
+00:02:52,500 --> 00:02:55,413
+I want to access Concepts, zero description.
+
+57
+00:02:56,640 --> 00:02:58,770
+With that, we should be outputting data
+
+58
+00:02:58,770 --> 00:03:02,820
+about the first key concept in that Concepts array.
+
+59
+00:03:02,820 --> 00:03:05,910
+Now, to see this in action here on my local machine,
+
+60
+00:03:05,910 --> 00:03:08,040
+I need to start this development server,
+
+61
+00:03:08,040 --> 00:03:10,712
+which in Visual Studio Code can be done
+
+62
+00:03:10,712 --> 00:03:13,770
+by opening a new terminal and running NPM start.
+
+63
+00:03:13,770 --> 00:03:18,660
+Though, for this to succeed, I first must run NPM install
+
+64
+00:03:18,660 --> 00:03:21,090
+to install all those extra dependencies
+
+65
+00:03:21,090 --> 00:03:24,630
+including that build process that's used behind the scenes.
+
+66
+00:03:24,630 --> 00:03:26,460
+And you only need to do this once
+
+67
+00:03:26,460 --> 00:03:29,940
+as you learned when you initially set up a project.
+
+68
+00:03:29,940 --> 00:03:32,733
+And thereafter, we can run NPM start,
+
+69
+00:03:32,733 --> 00:03:36,540
+and this will now start that development server.
+
+70
+00:03:36,540 --> 00:03:39,092
+And then, once I visit local host 3000
+
+71
+00:03:39,092 --> 00:03:43,263
+I can indeed see this key concept here on the screen.
+
+72
+00:03:44,280 --> 00:03:46,425
+It's quite big for me here,
+
+73
+00:03:46,425 --> 00:03:47,610
+because I zoomed in quite a bit,
+
+74
+00:03:47,610 --> 00:03:50,520
+so that you can see it really well as well.
+
+75
+00:03:50,520 --> 00:03:53,040
+And I got a light hover effect here,
+
+76
+00:03:53,040 --> 00:03:55,683
+but clicking doesn't actually do anything here.
+
+77
+00:03:56,569 --> 00:03:57,690
+It's just a visual effect.
+
+78
+00:03:57,690 --> 00:04:01,230
+But, this is now the first key concept being output here.
+
+79
+00:04:01,230 --> 00:04:04,061
+It's not the only key concept we got though.
+
+80
+00:04:04,061 --> 00:04:08,370
+Instead, if we take a look here at this Concepts array,
+
+81
+00:04:08,370 --> 00:04:11,713
+we of course got two more objects in there.
+
+82
+00:04:11,713 --> 00:04:16,620
+And the goal, of course, is to also output those concepts.
+
+83
+00:04:16,620 --> 00:04:20,055
+And therefore, what we can do for now,
+
+84
+00:04:20,055 --> 00:04:21,120
+and what will change later is
+
+85
+00:04:21,120 --> 00:04:23,670
+that we copy and paste this list item.
+
+86
+00:04:23,670 --> 00:04:27,270
+And now, access Concepts one image,
+
+87
+00:04:27,270 --> 00:04:30,240
+Concepts one title also here
+
+88
+00:04:30,240 --> 00:04:33,240
+and also Concepts one description.
+
+89
+00:04:33,240 --> 00:04:35,400
+And this will access the second element
+
+90
+00:04:35,400 --> 00:04:36,750
+in this Concepts array.
+
+91
+00:04:36,750 --> 00:04:38,640
+And then, access image, title
+
+92
+00:04:38,640 --> 00:04:41,910
+and description for that second element.
+
+93
+00:04:41,910 --> 00:04:43,332
+And, of course,
+
+94
+00:04:43,332 --> 00:04:45,210
+we can then also repeat this one last time here
+
+95
+00:04:45,210 --> 00:04:47,280
+for the third element
+
+96
+00:04:47,280 --> 00:04:50,280
+where we dare for access Concepts two image,
+
+97
+00:04:50,280 --> 00:04:53,430
+Concepts two title also here
+
+98
+00:04:53,430 --> 00:04:55,683
+and Concepts two description.
+
+99
+00:04:56,610 --> 00:05:01,050
+And with that, we'll be outputting all three concepts
+
+100
+00:05:01,050 --> 00:05:04,740
+for the moment simply by copy and pasting this code.
+
+101
+00:05:04,740 --> 00:05:06,753
+But, that of course will change soon.
+
+102
+00:05:07,860 --> 00:05:09,660
+If you save that though,
+
+103
+00:05:09,660 --> 00:05:12,630
+and you got that development server up and running,
+
+104
+00:05:12,630 --> 00:05:16,773
+you will now see these three key concepts on the screen.
+
+105
+00:05:17,940 --> 00:05:20,910
+And that, theoretically is of course
+
+106
+00:05:20,910 --> 00:05:22,650
+already the final solution.
+
+107
+00:05:22,650 --> 00:05:25,803
+It's the final website we want to build here,
+
+108
+00:05:26,940 --> 00:05:31,080
+but it's not the final solution for those tasks I gave you.
+
+109
+00:05:31,080 --> 00:05:34,200
+It's only the solution for the first task,
+
+110
+00:05:34,200 --> 00:05:36,780
+because whilst we got a working solution
+
+111
+00:05:36,780 --> 00:05:40,680
+we don't have the best possible working solution.
+
+112
+00:05:40,680 --> 00:05:45,420
+Instead, the next task is to identify possible components
+
+113
+00:05:45,420 --> 00:05:49,143
+before we then also build and use those components.
+

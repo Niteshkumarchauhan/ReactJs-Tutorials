@@ -1,0 +1,152 @@
+1
+00:00:02,009 --> 00:00:03,719
+So let's now take a look at our code
+
+2
+00:00:03,719 --> 00:00:08,720
+and identify possible components into which we could
+
+3
+00:00:08,850 --> 00:00:11,013
+split up the current code.
+
+4
+00:00:12,060 --> 00:00:14,790
+For that, if you take a look at the current code,
+
+5
+00:00:14,790 --> 00:00:17,880
+the current JSX code, to be precise,
+
+6
+00:00:17,880 --> 00:00:20,790
+I got at least two components
+
+7
+00:00:20,790 --> 00:00:22,950
+into which this could be split up.
+
+8
+00:00:22,950 --> 00:00:25,320
+And that would be the header component,
+
+9
+00:00:25,320 --> 00:00:27,557
+that could be a separate component.
+
+10
+00:00:27,557 --> 00:00:32,557
+And then one reusable component for those key concepts.
+
+11
+00:00:33,450 --> 00:00:38,280
+So this list item could go into its own reusable component.
+
+12
+00:00:38,280 --> 00:00:41,118
+We could also build a third component,
+
+13
+00:00:41,118 --> 00:00:46,080
+this concept component, but that is optional.
+
+14
+00:00:46,080 --> 00:00:49,263
+You could definitely do it though, I will say that.
+
+15
+00:00:50,310 --> 00:00:53,610
+Now, before we go ahead and build those components,
+
+16
+00:00:53,610 --> 00:00:57,510
+I wanna briefly explain why we could split the app
+
+17
+00:00:57,510 --> 00:01:00,420
+into those components I just mentioned.
+
+18
+00:01:00,420 --> 00:01:03,690
+And for that, I first of all want to say that of course
+
+19
+00:01:03,690 --> 00:01:06,390
+for a very simple website like this one here,
+
+20
+00:01:06,390 --> 00:01:09,690
+leaving the code like this wouldn't be wrong,
+
+21
+00:01:09,690 --> 00:01:11,400
+wouldn't be horrible.
+
+22
+00:01:11,400 --> 00:01:14,100
+But of course this is just a basic demo absence,
+
+23
+00:01:14,100 --> 00:01:17,190
+we're just getting started with React.
+
+24
+00:01:17,190 --> 00:01:20,160
+And of course we wanna practice those key React
+
+25
+00:01:20,160 --> 00:01:22,470
+concepts you already learned about,
+
+26
+00:01:22,470 --> 00:01:25,110
+like components for example.
+
+27
+00:01:25,110 --> 00:01:28,290
+And there actually also is a good reason for
+
+28
+00:01:28,290 --> 00:01:30,930
+splitting this up into components.
+
+29
+00:01:30,930 --> 00:01:34,500
+At least a separate component for these concepts
+
+30
+00:01:34,500 --> 00:01:37,260
+makes a lot of sense, because right now,
+
+31
+00:01:37,260 --> 00:01:40,230
+if I ever decide that I wanna get rid of this
+
+32
+00:01:40,230 --> 00:01:42,905
+description paragraph, for example,
+
+33
+00:01:42,905 --> 00:01:46,110
+I have to delete this paragraph manually
+
+34
+00:01:46,110 --> 00:01:49,830
+in three different places to get rid of it.
+
+35
+00:01:49,830 --> 00:01:52,680
+And whilst this is of course certainly doable,
+
+36
+00:01:52,680 --> 00:01:55,380
+it's unnecessary repetition.
+
+37
+00:01:55,380 --> 00:01:57,450
+And that's something we can typically avoid
+
+38
+00:01:57,450 --> 00:02:00,393
+by using and embracing React components.
+

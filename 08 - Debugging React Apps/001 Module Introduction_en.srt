@@ -1,0 +1,136 @@
+1
+00:00:02,300 --> 00:00:03,633
+- [Instructor] We learned a lot about
+
+2
+00:00:03,633 --> 00:00:06,833
+some of the most important
+features of React,
+
+3
+00:00:06,833 --> 00:00:11,566
+also about its core pillars
+and how you style React apps.
+
+4
+00:00:11,566 --> 00:00:14,133
+Now, when you're building apps with React,
+
+5
+00:00:14,133 --> 00:00:17,033
+or in general, if you're
+working as a developer,
+
+6
+00:00:17,033 --> 00:00:19,300
+you will encounter errors,
+
+7
+00:00:19,300 --> 00:00:20,700
+that will always happen,
+
+8
+00:00:20,700 --> 00:00:23,500
+you'll never write code
+that is error free.
+
+9
+00:00:23,500 --> 00:00:25,200
+During your development process,
+
+10
+00:00:25,200 --> 00:00:27,300
+you will always face errors.
+
+11
+00:00:27,300 --> 00:00:31,900
+And in this module, you will
+learn how to debug React apps.
+
+12
+00:00:31,900 --> 00:00:35,800
+So how you can find and fix errors,
+
+13
+00:00:35,800 --> 00:00:38,666
+because that's one of
+the most important things
+
+14
+00:00:38,666 --> 00:00:41,500
+you need to be able to do as a developer,
+
+15
+00:00:41,500 --> 00:00:46,200
+it's often overlooked and I
+see way too many developers
+
+16
+00:00:46,200 --> 00:00:48,400
+or all the students in my courses
+
+17
+00:00:48,400 --> 00:00:52,000
+that simply ask immediately
+that they get an error,
+
+18
+00:00:52,000 --> 00:00:54,600
+they immediately look
+for others to help them
+
+19
+00:00:54,600 --> 00:00:56,300
+and that's the wrong approach,
+
+20
+00:00:56,300 --> 00:01:00,333
+you need to be able to find
+and solve errors on your own
+
+21
+00:01:00,333 --> 00:01:04,933
+because errors will always
+be a part of development.
+
+22
+00:01:04,933 --> 00:01:06,300
+Therefore in this module,
+
+23
+00:01:06,300 --> 00:01:10,700
+we will explore how you can
+make sense of the error messages
+
+24
+00:01:10,700 --> 00:01:14,866
+React froze at you in
+certain circumstances,
+
+25
+00:01:14,866 --> 00:01:16,733
+we will learn how we can debug
+
+26
+00:01:16,733 --> 00:01:19,366
+and analyze React apps in general,
+
+27
+00:01:19,366 --> 00:01:23,100
+how we can understand our
+code whilst it's executing,
+
+28
+00:01:23,100 --> 00:01:26,233
+and we'll explore the React Dev Tools,
+
+29
+00:01:26,233 --> 00:01:29,500
+an extra extension we can
+install in the browser
+
+30
+00:01:29,500 --> 00:01:32,400
+to get a better React
+developer experience.
+

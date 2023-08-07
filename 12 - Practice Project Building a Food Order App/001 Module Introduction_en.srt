@@ -1,0 +1,220 @@
+1
+00:00:02,250 --> 00:00:04,870
+Over the last course sections,
+
+2
+00:00:04,870 --> 00:00:07,480
+the learning curve got a bit steeper
+
+3
+00:00:07,480 --> 00:00:09,270
+and we had a look
+
+4
+00:00:09,270 --> 00:00:14,130
+at more advanced yet crucial react concepts.
+
+5
+00:00:14,130 --> 00:00:17,890
+Especially of course, when we had a look at react hooks
+
+6
+00:00:17,890 --> 00:00:22,570
+like use effect, use context and also use reducer.
+
+7
+00:00:22,570 --> 00:00:24,760
+Therefore, before we dive deeper
+
+8
+00:00:24,760 --> 00:00:28,130
+into react, this course section is there
+
+9
+00:00:28,130 --> 00:00:31,080
+for you to practice what you learned together
+
+10
+00:00:31,080 --> 00:00:34,930
+with me by building another course project,
+
+11
+00:00:34,930 --> 00:00:37,130
+the Food Order app.
+
+12
+00:00:37,130 --> 00:00:40,960
+Now, of course we have demos in all course sections
+
+13
+00:00:40,960 --> 00:00:44,950
+but this is another slightly bigger application,
+
+14
+00:00:44,950 --> 00:00:47,900
+where all the key things you learned
+
+15
+00:00:47,900 --> 00:00:51,550
+throughout the last course sections again, come together
+
+16
+00:00:51,550 --> 00:00:55,760
+and can be seen in the context of a bigger project.
+
+17
+00:00:55,760 --> 00:00:58,410
+And of course, we're not just going to have a look
+
+18
+00:00:58,410 --> 00:01:01,680
+at those concepts covered in the last section,
+
+19
+00:01:01,680 --> 00:01:05,040
+but we will again see all core react features
+
+20
+00:01:05,040 --> 00:01:08,723
+in action, including components, state, and much more.
+
+21
+00:01:10,150 --> 00:01:13,110
+Now this is the application we are going to build.
+
+22
+00:01:13,110 --> 00:01:16,700
+It's a simple dummy food order app
+
+23
+00:01:16,700 --> 00:01:20,260
+where we got a list of meals from which we can choose.
+
+24
+00:01:20,260 --> 00:01:23,720
+And we can then add these meals to the cart,
+
+25
+00:01:23,720 --> 00:01:27,310
+also changed their amounts and also add them multiple times.
+
+26
+00:01:27,310 --> 00:01:30,440
+And of course we can also view the carts to see what's
+
+27
+00:01:30,440 --> 00:01:31,840
+in the cart here.
+
+28
+00:01:31,840 --> 00:01:35,920
+We can also change our cart from that page if we want to.
+
+29
+00:01:35,920 --> 00:01:39,600
+And ultimately we can, of course also click order, though
+
+30
+00:01:39,600 --> 00:01:42,690
+for the moment that won't do anything.
+
+31
+00:01:42,690 --> 00:01:45,590
+Instead, it will just add a little output here
+
+32
+00:01:45,590 --> 00:01:47,100
+in the console,
+
+33
+00:01:47,100 --> 00:01:49,760
+but we will, of course also have a closer look
+
+34
+00:01:49,760 --> 00:01:52,640
+at how we can store data in a database
+
+35
+00:01:52,640 --> 00:01:56,710
+or do other things with that later in the course.
+
+36
+00:01:56,710 --> 00:01:59,840
+But for the moment, this application is there
+
+37
+00:01:59,840 --> 00:02:03,720
+to practice all those key features we had a look
+
+38
+00:02:03,720 --> 00:02:06,410
+at over the last course sections.
+
+39
+00:02:06,410 --> 00:02:08,550
+Now, if you feel like it, you can
+
+40
+00:02:08,550 --> 00:02:10,979
+of course also try this on your own.
+
+41
+00:02:10,979 --> 00:02:12,960
+Attached to this lecture,
+
+42
+00:02:12,960 --> 00:02:16,340
+you find all the CSS files I plan to use
+
+43
+00:02:16,340 --> 00:02:17,750
+throughout this section,
+
+44
+00:02:17,750 --> 00:02:20,630
+and these file names also give you an idea
+
+45
+00:02:20,630 --> 00:02:23,240
+of which components I plan to use,
+
+46
+00:02:23,240 --> 00:02:25,880
+but this is totally optional.
+
+47
+00:02:25,880 --> 00:02:29,340
+It is a nice practice, but it will also be a big challenge.
+
+48
+00:02:29,340 --> 00:02:31,980
+Therefore it might definitely be worth a try,
+
+49
+00:02:31,980 --> 00:02:34,280
+but we can also simply walk through all
+
+50
+00:02:34,280 --> 00:02:35,560
+of that together,
+
+51
+00:02:35,560 --> 00:02:37,290
+to again practice all
+
+52
+00:02:37,290 --> 00:02:40,000
+these key concepts step-by-step together,
+
+53
+00:02:40,000 --> 00:02:42,030
+to make sure that after
+
+54
+00:02:42,030 --> 00:02:44,660
+this course section everything we learned up
+
+55
+00:02:44,660 --> 00:02:47,403
+to this point is super clear.
+

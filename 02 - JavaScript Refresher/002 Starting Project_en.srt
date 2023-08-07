@@ -1,0 +1,88 @@
+1
+00:00:02,009 --> 00:00:03,540
+So, let's dive right in.
+
+2
+00:00:03,540 --> 00:00:07,560
+And for that, I prepared a CodeSandbox project,
+
+3
+00:00:07,560 --> 00:00:09,600
+a CodeSandbox environment,
+
+4
+00:00:09,600 --> 00:00:10,800
+to which you, of course,
+
+5
+00:00:10,800 --> 00:00:13,380
+find a link attached to this lecture,
+
+6
+00:00:13,380 --> 00:00:16,620
+which gives you a very basic web project
+
+7
+00:00:16,620 --> 00:00:20,580
+with an HTML file and some assets.
+
+8
+00:00:20,580 --> 00:00:23,220
+No JavaScript code yet, though.
+
+9
+00:00:23,220 --> 00:00:26,820
+And this is the project we'll use for playing around
+
+10
+00:00:26,820 --> 00:00:30,780
+with JavaScript and for exploring some basic features.
+
+11
+00:00:30,780 --> 00:00:32,460
+I will also say, right away,
+
+12
+00:00:32,460 --> 00:00:34,230
+that we'll mostly write code
+
+13
+00:00:34,230 --> 00:00:37,350
+that will output content in the console,
+
+14
+00:00:37,350 --> 00:00:39,900
+which in CodeSandbox can be accessed
+
+15
+00:00:39,900 --> 00:00:42,660
+by clicking on "Console" here.
+
+16
+00:00:42,660 --> 00:00:44,220
+Because this section
+
+17
+00:00:44,220 --> 00:00:47,280
+is not about building some super fancy,
+
+18
+00:00:47,280 --> 00:00:49,140
+JavaScript-based project.
+
+19
+00:00:49,140 --> 00:00:50,640
+Instead, as mentioned,
+
+20
+00:00:50,640 --> 00:00:53,760
+it is about refreshing your JavaScript knowledge
+
+21
+00:00:53,760 --> 00:00:56,910
+and making sure that you have all the essentials you need
+
+22
+00:00:56,910 --> 00:00:58,623
+for building React apps.
+

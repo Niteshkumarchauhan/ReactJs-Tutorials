@@ -1,0 +1,57 @@
+1
+00:00:00,066 --> 00:00:02,266
+Hi, and welcome to this course!
+
+2
+00:00:02,266 --> 00:00:06,233
+My name is Maximilian Schwarzmueller
+and I will be your instructor
+
+3
+00:00:06,233 --> 00:00:09,433
+in this course where I will teach you
+React from the ground
+
+4
+00:00:09,433 --> 00:00:12,100
+up, step by step, and in great depth!
+
+5
+00:00:12,633 --> 00:00:16,600
+In this first course section here,
+I'll get you started with this course,
+
+6
+00:00:16,600 --> 00:00:19,400
+and get some organizational things
+out of the way -
+
+7
+00:00:19,400 --> 00:00:22,966
+what you should know about React
+and this course - and thereafter,
+
+8
+00:00:23,000 --> 00:00:26,333
+after an optional JavaScript
+refresher section,
+
+9
+00:00:26,333 --> 00:00:30,066
+which you can take if it's been some time
+since you last worked with JavaScript,
+
+10
+00:00:30,400 --> 00:00:34,300
+we're going to dive right in and explore
+React in great detail.
+
+11
+00:00:34,533 --> 00:00:38,100
+And speaking of that, let's start
+with the most
+
+12
+00:00:38,100 --> 00:00:42,366
+important question: What exactly is React?
+

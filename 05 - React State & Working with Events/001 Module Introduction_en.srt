@@ -1,0 +1,236 @@
+1
+00:00:02,266 --> 00:00:03,200
+Maximilian: Now, that we learned
+
+2
+00:00:03,200 --> 00:00:06,000
+about some important basics of React,
+
+3
+00:00:06,000 --> 00:00:09,533
+most importantly, about components and props
+
+4
+00:00:09,533 --> 00:00:11,366
+It's time to take the next step.
+
+5
+00:00:11,366 --> 00:00:11,500
+It's time to take the next step.
+
+6
+00:00:11,500 --> 00:00:14,300
+And in this course section, we're going to take
+
+7
+00:00:14,300 --> 00:00:19,300
+a closer look at user interaction and handling user events
+
+8
+00:00:19,300 --> 00:00:23,333
+like clicks or input into text fields and so on.
+
+9
+00:00:23,333 --> 00:00:23,766
+like clicks or input into text fields and so on.
+
+10
+00:00:23,766 --> 00:00:27,066
+And we're going to have a look at the very important concept
+
+11
+00:00:27,066 --> 00:00:32,000
+of state in React apps because, you might remember,
+
+12
+00:00:32,000 --> 00:00:34,500
+that I mentioned earlier in the course
+
+13
+00:00:34,500 --> 00:00:38,800
+that with React we follow that declarative approach
+
+14
+00:00:38,800 --> 00:00:38,933
+that with React we follow that declarative approach
+
+15
+00:00:38,933 --> 00:00:43,766
+where we, in the end, define desired target states
+
+16
+00:00:43,766 --> 00:00:48,266
+and React then takes care about reaching that state.
+
+17
+00:00:48,266 --> 00:00:50,766
+Well, that is correct and that is already
+
+18
+00:00:50,766 --> 00:00:53,366
+something we're using but, at the moment,
+
+19
+00:00:53,366 --> 00:00:55,833
+in the application we built thus far
+
+20
+00:00:55,833 --> 00:00:58,533
+and with the knowledge we gained, up to this point,
+
+21
+00:00:58,533 --> 00:00:58,866
+and with the knowledge we gained, up to this point,
+
+22
+00:00:58,866 --> 00:01:01,666
+we can only build static applications
+
+23
+00:01:01,666 --> 00:01:01,833
+we can only build static applications
+
+24
+00:01:01,833 --> 00:01:04,400
+where the state never changes,
+
+25
+00:01:04,400 --> 00:01:07,766
+where we always output exactly the same.
+
+26
+00:01:07,766 --> 00:01:07,966
+where we always output exactly the same.
+
+27
+00:01:07,966 --> 00:01:10,333
+And that's typically not what you want.
+
+28
+00:01:10,333 --> 00:01:14,200
+You want to have applications which are interactive,
+
+29
+00:01:14,200 --> 00:01:14,266
+You want to have applications which are interactive,
+
+30
+00:01:14,266 --> 00:01:17,733
+so that you can React to clicks by the user
+
+31
+00:01:17,733 --> 00:01:20,700
+and to data being entered by the user
+
+32
+00:01:20,700 --> 00:01:21,033
+and to data being entered by the user
+
+33
+00:01:21,033 --> 00:01:24,300
+and which are reactive so that the application
+
+34
+00:01:24,300 --> 00:01:27,100
+also changes when certain things happen.
+
+35
+00:01:27,100 --> 00:01:29,833
+And, therefore, in this course module
+
+36
+00:01:29,833 --> 00:01:33,766
+we are going to take a look at handling events,
+
+37
+00:01:33,766 --> 00:01:37,100
+handling user events, like clicks and so on.
+
+38
+00:01:37,100 --> 00:01:37,300
+handling user events, like clicks and so on.
+
+39
+00:01:37,300 --> 00:01:39,666
+And we'll see how that works in React apps,
+
+40
+00:01:39,666 --> 00:01:42,600
+how we can add such event handlers and more.
+
+41
+00:01:42,600 --> 00:01:42,933
+how we can add such event handlers and more.
+
+42
+00:01:42,933 --> 00:01:46,233
+And then, we're going to take a look at how we can ensure
+
+43
+00:01:46,233 --> 00:01:49,866
+that what's visible on the screen changes,
+
+44
+00:01:49,866 --> 00:01:50,066
+that what's visible on the screen changes,
+
+45
+00:01:50,066 --> 00:01:53,233
+that we reach a different target state.
+
+46
+00:01:53,233 --> 00:01:55,633
+And for that, we're going to take a closer look
+
+47
+00:01:55,633 --> 00:01:59,266
+at this state concept in React
+
+48
+00:01:59,266 --> 00:01:59,333
+at this state concept in React
+
+49
+00:01:59,333 --> 00:02:02,533
+and we'll learn how we can manipulate the state
+
+50
+00:02:02,533 --> 00:02:08,066
+and transition from state A to state B, if we want to.
+
+51
+00:02:08,066 --> 00:02:10,666
+And, in general, in this section
+
+52
+00:02:10,666 --> 00:02:13,866
+we're going to learn about a couple of key concepts.
+
+53
+00:02:13,866 --> 00:02:13,900
+we're going to learn about a couple of key concepts.
+
+54
+00:02:13,900 --> 00:02:17,133
+This is a section you absolutely should not skip.
+
+55
+00:02:17,133 --> 00:02:19,400
+And we're also going to take a closer look
+
+56
+00:02:19,400 --> 00:02:21,833
+at components and state again.
+
+57
+00:02:21,833 --> 00:02:22,066
+at components and state again.
+
+58
+00:02:22,066 --> 00:02:25,566
+So, this is another fundamental section covering
+
+59
+00:02:25,566 --> 00:02:28,733
+core features of React, so let's dive in.
+

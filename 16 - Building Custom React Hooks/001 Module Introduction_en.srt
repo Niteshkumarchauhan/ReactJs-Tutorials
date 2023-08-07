@@ -1,0 +1,108 @@
+1
+00:00:02,344 --> 00:00:03,370
+[Maximilian Schwarzmüller] As you can probably
+
+2
+00:00:03,370 --> 00:00:08,270
+tell by now we are diving deeper and deeper into React.
+
+3
+00:00:08,270 --> 00:00:10,860
+And in this module, we're going to have a look
+
+4
+00:00:10,860 --> 00:00:14,170
+at another core concept, which you will use
+
+5
+00:00:14,170 --> 00:00:16,820
+in a lot of React apps you're going to build
+
+6
+00:00:16,820 --> 00:00:19,370
+and that will be Custom Hooks
+
+7
+00:00:19,370 --> 00:00:23,350
+and how you can build your own Custom Hooks.
+
+8
+00:00:23,350 --> 00:00:25,910
+Now, up to this point in this course
+
+9
+00:00:25,910 --> 00:00:28,570
+we already worked a lot with Hooks,
+
+10
+00:00:28,570 --> 00:00:31,770
+with the built in React Hooks React offers
+
+11
+00:00:31,770 --> 00:00:36,019
+to us like useState, UseReducer, UseEffect
+
+12
+00:00:36,019 --> 00:00:38,060
+UseContext and so on.
+
+13
+00:00:38,060 --> 00:00:43,060
+So all these special React functions that start with Use.
+
+14
+00:00:43,150 --> 00:00:45,880
+You might remember that when I talked
+
+15
+00:00:45,880 --> 00:00:49,230
+about the rules of Hooks, I mentioned that
+
+16
+00:00:49,230 --> 00:00:52,020
+you can only use React Hooks
+
+17
+00:00:52,020 --> 00:00:56,770
+in React Component Functions and in Custom Hooks.
+
+18
+00:00:56,770 --> 00:00:59,850
+And I told you that those would be covered later.
+
+19
+00:00:59,850 --> 00:01:02,200
+Well, now is later.
+
+20
+00:01:02,200 --> 00:01:05,519
+Now we're going to explore how you can build your own Hooks,
+
+21
+00:01:05,519 --> 00:01:07,680
+why you might want to do that,
+
+22
+00:01:07,680 --> 00:01:09,640
+How exactly you do that, of course,
+
+23
+00:01:09,640 --> 00:01:11,518
+And we're going to do that
+
+24
+00:01:11,518 --> 00:01:13,640
+as a concrete example or multiple examples.
+
+25
+00:01:13,640 --> 00:01:17,350
+And we're also going to learn about the rules
+
+26
+00:01:17,350 --> 00:01:20,880
+and practices and best practices that apply when
+
+27
+00:01:20,880 --> 00:01:23,033
+you build your own Custom Hooks.
+

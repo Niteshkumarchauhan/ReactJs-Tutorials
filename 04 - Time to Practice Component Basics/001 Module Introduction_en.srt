@@ -1,0 +1,124 @@
+1
+00:00:02,130 --> 00:00:04,320
+So, now that we got started
+
+2
+00:00:04,320 --> 00:00:06,360
+with components and props,
+
+3
+00:00:06,360 --> 00:00:10,110
+and how we can build basic React applications,
+
+4
+00:00:10,110 --> 00:00:12,600
+it's time to practice what we learned,
+
+5
+00:00:12,600 --> 00:00:15,420
+and it's of course specifically time
+
+6
+00:00:15,420 --> 00:00:18,330
+to practice working with those components,
+
+7
+00:00:18,330 --> 00:00:20,070
+because as you learned,
+
+8
+00:00:20,070 --> 00:00:24,030
+components are a crucial React concept,
+
+9
+00:00:24,030 --> 00:00:28,950
+and the core building block of all those user interfaces
+
+10
+00:00:28,950 --> 00:00:31,233
+you are going to build with React.
+
+11
+00:00:32,159 --> 00:00:35,250
+Therefore, in this course section here,
+
+12
+00:00:35,250 --> 00:00:38,820
+we're going to build this demo application,
+
+13
+00:00:38,820 --> 00:00:40,890
+this very basic website
+
+14
+00:00:40,890 --> 00:00:44,130
+which will utilize this component concept,
+
+15
+00:00:44,130 --> 00:00:48,600
+or which code will utilize this component concept,
+
+16
+00:00:48,600 --> 00:00:51,270
+and the idea behind this section here
+
+17
+00:00:51,270 --> 00:00:54,150
+is that you can practice what you learned.
+
+18
+00:00:54,150 --> 00:00:56,070
+For that, in this section,
+
+19
+00:00:56,070 --> 00:01:00,180
+you're going to split an existing component,
+
+20
+00:01:00,180 --> 00:01:03,420
+an existing React application, you could say,
+
+21
+00:01:03,420 --> 00:01:05,850
+into smaller components,
+
+22
+00:01:05,850 --> 00:01:08,400
+and you're therefore going to create
+
+23
+00:01:08,400 --> 00:01:11,640
+and use multiple custom components,
+
+24
+00:01:11,640 --> 00:01:15,450
+and you are also going to need to pass data
+
+25
+00:01:15,450 --> 00:01:17,340
+to some of those components.
+
+26
+00:01:17,340 --> 00:01:19,260
+So, that's also something you're going to do
+
+27
+00:01:19,260 --> 00:01:21,360
+in this course section.
+
+28
+00:01:21,360 --> 00:01:23,460
+In the next lecture, I'll provide you
+
+29
+00:01:23,460 --> 00:01:27,030
+with a starting project and your main tasks,
+
+30
+00:01:27,030 --> 00:01:28,380
+and thereafter,
+
+31
+00:01:28,380 --> 00:01:32,073
+you should try to complete those tasks on your own.
+

@@ -1,0 +1,368 @@
+1
+00:00:02,240 --> 00:00:03,310
+Now as I mentioned
+
+2
+00:00:03,310 --> 00:00:05,520
+in the last lecture already,
+
+3
+00:00:05,520 --> 00:00:08,010
+Class-Based Components exist
+
+4
+00:00:08,010 --> 00:00:11,630
+and they are an alternative to functions.
+
+5
+00:00:11,630 --> 00:00:14,220
+Up to this point, when we built Components,
+
+6
+00:00:14,220 --> 00:00:16,530
+they looked something like this.
+
+7
+00:00:16,530 --> 00:00:19,000
+Of course, instead of the function keyword,
+
+8
+00:00:19,000 --> 00:00:20,510
+we might have used const
+
+9
+00:00:20,510 --> 00:00:23,110
+and stored an arrow function in there.
+
+10
+00:00:23,110 --> 00:00:26,700
+But either way, we simply built a function.
+
+11
+00:00:26,700 --> 00:00:27,780
+That is what we did.
+
+12
+00:00:27,780 --> 00:00:31,200
+And we built a function that receives props
+
+13
+00:00:31,200 --> 00:00:34,100
+and then returns the JSX code
+
+14
+00:00:34,100 --> 00:00:36,283
+that should be rendered to the screen.
+
+15
+00:00:37,210 --> 00:00:40,060
+This is what Components are in React,
+
+16
+00:00:40,060 --> 00:00:43,550
+and they are simply regular JavaScript functions
+
+17
+00:00:43,550 --> 00:00:47,930
+which return some renderable results, typically JSX.
+
+18
+00:00:47,930 --> 00:00:52,640
+This is what we refer to as Functional Components,
+
+19
+00:00:52,640 --> 00:00:56,650
+which is a term I also already used a couple of times.
+
+20
+00:00:56,650 --> 00:00:58,160
+Now this term exists
+
+21
+00:00:58,160 --> 00:01:01,530
+because it's not the only way of building Components.
+
+22
+00:01:01,530 --> 00:01:03,100
+If it would be the only way,
+
+23
+00:01:03,100 --> 00:01:06,540
+we could just call it Components, right?
+
+24
+00:01:06,540 --> 00:01:09,280
+But we call it Functional Components
+
+25
+00:01:09,280 --> 00:01:13,650
+because there is an alternative way of defining Components.
+
+26
+00:01:13,650 --> 00:01:15,500
+Not of using them.
+
+27
+00:01:15,500 --> 00:01:19,550
+You always use them as custom HTML elements
+
+28
+00:01:19,550 --> 00:01:21,040
+in your JSX code.
+
+29
+00:01:21,040 --> 00:01:24,823
+But for defining them, there is this alternative.
+
+30
+00:01:25,700 --> 00:01:30,700
+You can define a Component by creating a class,
+
+31
+00:01:30,830 --> 00:01:34,310
+which is a default JavaScript feature.
+
+32
+00:01:34,310 --> 00:01:36,840
+Classes are not a React feature,
+
+33
+00:01:36,840 --> 00:01:40,410
+classes exist in modern JavaScript.
+
+34
+00:01:40,410 --> 00:01:44,310
+And you can define a class with a render method
+
+35
+00:01:44,310 --> 00:01:46,880
+and that is a reserved name, render.
+
+36
+00:01:46,880 --> 00:01:48,350
+It has to be named like this.
+
+37
+00:01:48,350 --> 00:01:51,800
+And then React will call that render method
+
+38
+00:01:51,800 --> 00:01:55,850
+to evaluate what should be rendered to the screen.
+
+39
+00:01:55,850 --> 00:02:00,140
+So this is an alternative way of defining Components.
+
+40
+00:02:00,140 --> 00:02:04,530
+And that is what is referred to as class Components
+
+41
+00:02:04,530 --> 00:02:07,163
+or Class-Based Components.
+
+42
+00:02:08,229 --> 00:02:12,350
+Now, I will emphasize the left approach,
+
+43
+00:02:12,350 --> 00:02:14,740
+using Functional Components,
+
+44
+00:02:14,740 --> 00:02:18,090
+is the default and most modern approach
+
+45
+00:02:18,090 --> 00:02:20,320
+of building Components these days.
+
+46
+00:02:20,320 --> 00:02:24,390
+And in most modern React projects,
+
+47
+00:02:24,390 --> 00:02:26,210
+you will therefore pretty much
+
+48
+00:02:26,210 --> 00:02:29,520
+work with Functional Components only.
+
+49
+00:02:29,520 --> 00:02:33,130
+You might never build a single class-based Component there
+
+50
+00:02:33,130 --> 00:02:37,040
+because nowadays with the exception of error boundaries,
+
+51
+00:02:37,040 --> 00:02:38,810
+which we'll have a look at later,
+
+52
+00:02:38,810 --> 00:02:43,110
+there is no reason to go for Class-Based Components.
+
+53
+00:02:43,110 --> 00:02:45,860
+Except for personal preferences, of course.
+
+54
+00:02:45,860 --> 00:02:49,120
+You can simply prefer Class-Based Components,
+
+55
+00:02:49,120 --> 00:02:52,040
+and that would be absolutely fine.
+
+56
+00:02:52,040 --> 00:02:53,790
+You can build anything
+
+57
+00:02:53,790 --> 00:02:56,570
+you can build with Functional Components
+
+58
+00:02:56,570 --> 00:02:59,360
+with Class-Based Components as well.
+
+59
+00:02:59,360 --> 00:03:02,570
+It just requires a different mental model
+
+60
+00:03:02,570 --> 00:03:05,810
+in some regards and some aspects.
+
+61
+00:03:05,810 --> 00:03:08,670
+Now, the Class-Based Components exist
+
+62
+00:03:08,670 --> 00:03:12,120
+because they were required in the past.
+
+63
+00:03:12,120 --> 00:03:17,120
+In the past, which means prior to React 16.8,
+
+64
+00:03:17,710 --> 00:03:21,390
+there were scenarios and use cases
+
+65
+00:03:21,390 --> 00:03:24,720
+where you needed Class-Based Components.
+
+66
+00:03:24,720 --> 00:03:28,090
+Specifically when dealing with State
+
+67
+00:03:28,090 --> 00:03:30,520
+and with side effects,
+
+68
+00:03:30,520 --> 00:03:34,030
+you had to use Class-Based Components.
+
+69
+00:03:34,030 --> 00:03:37,740
+Traditionally, prior to React 16.8,
+
+70
+00:03:37,740 --> 00:03:41,800
+you could not change State in Functional Components
+
+71
+00:03:41,800 --> 00:03:45,303
+and you couldn't really handle side effects there either.
+
+72
+00:03:46,340 --> 00:03:49,520
+That changed with React 16.8
+
+73
+00:03:49,520 --> 00:03:51,210
+because that React version
+
+74
+00:03:51,210 --> 00:03:54,780
+introduced a concept called React Hooks,
+
+75
+00:03:54,780 --> 00:03:56,790
+which are all these Hooks,
+
+76
+00:03:56,790 --> 00:03:59,220
+these functions starting with use.
+
+77
+00:03:59,220 --> 00:04:03,280
+UseState and useEffect and so on.
+
+78
+00:04:03,280 --> 00:04:07,070
+These are functions for Functional Components,
+
+79
+00:04:07,070 --> 00:04:10,730
+which bring features to Functional Components,
+
+80
+00:04:10,730 --> 00:04:15,130
+which previously were reserved for Class-Based Components.
+
+81
+00:04:15,130 --> 00:04:19,870
+And indeed, Class-Based Components can't use React Hooks.
+
+82
+00:04:19,870 --> 00:04:21,540
+That's also important.
+
+83
+00:04:21,540 --> 00:04:23,830
+That's really important.
+
+84
+00:04:23,830 --> 00:04:26,980
+What you learned about react Hooks up to this point,
+
+85
+00:04:26,980 --> 00:04:29,450
+it does not matter at all
+
+86
+00:04:29,450 --> 00:04:32,680
+when working with Class-Based Components.
+
+87
+00:04:32,680 --> 00:04:34,690
+But now in the next lectures,
+
+88
+00:04:34,690 --> 00:04:37,150
+I'll show you how you can convert
+
+89
+00:04:37,150 --> 00:04:40,250
+Functional Components to Class-Based Components,
+
+90
+00:04:40,250 --> 00:04:42,440
+how you can manage State there,
+
+91
+00:04:42,440 --> 00:04:46,180
+and also how you translate useEffect and useContext
+
+92
+00:04:47,317 --> 00:04:50,943
+and useReducer to the Class-Based Component world.
+

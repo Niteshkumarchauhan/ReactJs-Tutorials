@@ -1,0 +1,368 @@
+1
+00:00:02,040 --> 00:00:04,920
+So as mentioned, this is the project,
+
+2
+00:00:04,920 --> 00:00:08,550
+the website we're going to build in this section.
+
+3
+00:00:08,550 --> 00:00:11,730
+And when I say we are going to build it,
+
+4
+00:00:11,730 --> 00:00:14,940
+I basically mean you are going to build it,
+
+5
+00:00:14,940 --> 00:00:18,360
+or at least you should try building it first,
+
+6
+00:00:18,360 --> 00:00:21,000
+because I got a couple of tasks for you
+
+7
+00:00:21,000 --> 00:00:23,700
+that allow you to practice what you learned.
+
+8
+00:00:23,700 --> 00:00:27,600
+Though of course, throughout the rest of this section here,
+
+9
+00:00:27,600 --> 00:00:30,856
+I'm going to build this website here together with you
+
+10
+00:00:30,856 --> 00:00:33,960
+and you can follow along with me
+
+11
+00:00:33,960 --> 00:00:35,710
+to see how I'm tackling those tasks
+
+12
+00:00:36,696 --> 00:00:38,760
+and how I am building this project.
+
+13
+00:00:38,760 --> 00:00:40,530
+But that being said, let's now take a look at
+
+14
+00:00:40,530 --> 00:00:43,500
+this starting project I prepared for you
+
+15
+00:00:43,500 --> 00:00:46,980
+and the tasks you should complete with this project.
+
+16
+00:00:46,980 --> 00:00:48,540
+So here's the starting project
+
+17
+00:00:48,540 --> 00:00:51,390
+and you of course find it attached.
+
+18
+00:00:51,390 --> 00:00:54,450
+You also find a link to Code Sandbox attached
+
+19
+00:00:54,450 --> 00:00:56,400
+which you can use alternatively
+
+20
+00:00:56,400 --> 00:00:59,220
+if you don't want to install anything locally.
+
+21
+00:00:59,220 --> 00:01:02,100
+But I'm of course going to use a local environment
+
+22
+00:01:02,100 --> 00:01:04,800
+as I always do in this course.
+
+23
+00:01:04,800 --> 00:01:08,220
+And in this starting project I am providing to you,
+
+24
+00:01:08,220 --> 00:01:10,110
+you'll find a source folder
+
+25
+00:01:10,110 --> 00:01:12,060
+with a couple of JavaScript files
+
+26
+00:01:12,060 --> 00:01:16,080
+and an assets folder with a nested images folder.
+
+27
+00:01:16,080 --> 00:01:21,080
+Now the only really relevant file for us is the App.js file.
+
+28
+00:01:21,783 --> 00:01:26,100
+In that file here, you'll already find some code
+
+29
+00:01:26,100 --> 00:01:30,210
+and you'll also already find a react component in there.
+
+30
+00:01:30,210 --> 00:01:31,530
+Now this component
+
+31
+00:01:31,530 --> 00:01:35,010
+and this overall app is not finished though.
+
+32
+00:01:35,010 --> 00:01:38,100
+Instead here in this component I got a header,
+
+33
+00:01:38,100 --> 00:01:42,930
+where I output an image and the image is actually imported
+
+34
+00:01:42,930 --> 00:01:46,290
+like this from the assets folder.
+
+35
+00:01:46,290 --> 00:01:50,430
+This is an import syntax you can use in React projects.
+
+36
+00:01:50,430 --> 00:01:53,550
+It is supported by the underlying development server
+
+37
+00:01:53,550 --> 00:01:54,963
+and build process,
+
+38
+00:01:56,167 --> 00:01:58,110
+and this is how you can use images which are stored
+
+39
+00:01:58,110 --> 00:02:02,160
+in this assets images folder here in your component files.
+
+40
+00:02:02,160 --> 00:02:05,070
+You simply import them, assign any name of your choice
+
+41
+00:02:05,070 --> 00:02:09,870
+to them, and then you use them as a dynamic source value.
+
+42
+00:02:09,870 --> 00:02:13,140
+But that's already in this file of course.
+
+43
+00:02:13,140 --> 00:02:16,950
+What's not in this file or what's at least not finished
+
+44
+00:02:16,950 --> 00:02:20,430
+right now is information about some of those
+
+45
+00:02:20,430 --> 00:02:23,580
+React key concepts you should be aware of.
+
+46
+00:02:23,580 --> 00:02:27,030
+Though I will say that this is just a demo website,
+
+47
+00:02:27,030 --> 00:02:29,083
+just an exercise.
+
+48
+00:02:29,083 --> 00:02:30,570
+And this is not an exhaustive list
+
+49
+00:02:30,570 --> 00:02:32,850
+of all key React concepts.
+
+50
+00:02:32,850 --> 00:02:36,450
+Instead, you're going to learn about more React concepts
+
+51
+00:02:36,450 --> 00:02:37,773
+throughout this course.
+
+52
+00:02:38,640 --> 00:02:42,030
+But anyways here we got an array full of objects
+
+53
+00:02:42,030 --> 00:02:45,288
+and down here the goal is to output the information
+
+54
+00:02:45,288 --> 00:02:48,750
+that's contained in those objects in this array.
+
+55
+00:02:48,750 --> 00:02:51,690
+But at the moment that's not happening.
+
+56
+00:02:51,690 --> 00:02:54,660
+And that's where your tasks start.
+
+57
+00:02:54,660 --> 00:02:59,340
+The first task is to output those key concepts,
+
+58
+00:02:59,340 --> 00:03:02,280
+so that key concepts data.
+
+59
+00:03:02,280 --> 00:03:05,325
+This data which you find in this area should be output here
+
+60
+00:03:05,325 --> 00:03:07,500
+on the screen.
+
+61
+00:03:07,500 --> 00:03:10,560
+And of course with that, I don't mean that you should copy
+
+62
+00:03:10,560 --> 00:03:11,970
+and paste the text.
+
+63
+00:03:11,970 --> 00:03:13,990
+Instead, you should find a different way
+
+64
+00:03:15,011 --> 00:03:19,080
+of outputting that data, but that's only the first task.
+
+65
+00:03:19,080 --> 00:03:24,080
+The second task then is to identify possible components
+
+66
+00:03:24,090 --> 00:03:27,630
+you could create, possible JSX code snippets
+
+67
+00:03:27,630 --> 00:03:30,930
+you could outsource into a separate component.
+
+68
+00:03:30,930 --> 00:03:33,570
+For that you should analyze this JSX code
+
+69
+00:03:33,570 --> 00:03:37,740
+in the app component and come up with possible components
+
+70
+00:03:37,740 --> 00:03:40,500
+this code could be split up into.
+
+71
+00:03:40,500 --> 00:03:43,620
+Now of course identifying possible components
+
+72
+00:03:43,620 --> 00:03:45,390
+isn't everything though.
+
+73
+00:03:45,390 --> 00:03:49,560
+Instead then as a last task in this section here,
+
+74
+00:03:49,560 --> 00:03:54,090
+you should then also create and use those custom components.
+
+75
+00:03:54,090 --> 00:03:56,940
+So you should create new components.
+
+76
+00:03:56,940 --> 00:03:59,760
+Also use props if you need to use them.
+
+77
+00:03:59,760 --> 00:04:03,510
+And of course once you went through all these steps
+
+78
+00:04:03,510 --> 00:04:05,790
+and once you have a working solution,
+
+79
+00:04:05,790 --> 00:04:08,790
+definitely also take a look at the remaining lectures
+
+80
+00:04:08,790 --> 00:04:11,610
+in this section because there I will walk you through
+
+81
+00:04:11,610 --> 00:04:14,730
+my solution, repeat some core component
+
+82
+00:04:14,730 --> 00:04:16,709
+and React concepts you must know,
+
+83
+00:04:16,709 --> 00:04:20,820
+and of course also let you know why I chose this solution
+
+84
+00:04:20,820 --> 00:04:23,880
+and why I perform certain steps.
+
+85
+00:04:23,880 --> 00:04:26,394
+Now in case you're getting stuck whilst trying this
+
+86
+00:04:26,394 --> 00:04:29,790
+on your own, also take a look at the next lecture,
+
+87
+00:04:29,790 --> 00:04:31,680
+so the lecture after this one here,
+
+88
+00:04:31,680 --> 00:04:34,740
+because that will be a hints lecture where
+
+89
+00:04:34,740 --> 00:04:37,530
+I give you some hints on how to tackle this
+
+90
+00:04:37,530 --> 00:04:40,230
+and where idea four can hopefully help you
+
+91
+00:04:40,230 --> 00:04:42,000
+come up with a solution.
+
+92
+00:04:42,000 --> 00:04:45,993
+And with that, good luck and I'll see you in my solution.
+
